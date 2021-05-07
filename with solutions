@@ -1,0 +1,15 @@
+#Tuples are immutable
+
+my_tuple = (0,1,2,3,4,5)
+
+#convert tuple into list
+my_tuple_list = list(my_tuple)
+
+#replace item in list according to index of list
+my_tuple_list[0] = 1
+
+#convert list to tuple
+my_tuple = tuple(my_tuple_list)
+
+#print tuple
+print(my_tuple)
